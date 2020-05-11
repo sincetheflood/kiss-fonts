@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+mkdir -p "$1/usr/share/fonts/mukta"
+cp ./Mukta-Devanagari/*.ttf "$1/usr/share/fonts/mukta"
+cp ./MuktaMahee-Gurmukhi/*.ttf "$1/usr/share/fonts/mukta"
+cp ./MuktaMalar-Tamil/*.ttf "$1/usr/share/fonts/mukta"
+cp ./MuktaVaani-Gujarati/*.ttf "$1/usr/share/fonts/mukta"
