@@ -1,7 +1,6 @@
 #!/bin/sh -e
 
-mkdir -p "$1/usr/share/fonts/mukta"
-cp ./Mukta-Devanagari/*.ttf "$1/usr/share/fonts/mukta"
-cp ./MuktaMahee-Gurmukhi/*.ttf "$1/usr/share/fonts/mukta"
-cp ./MuktaMalar-Tamil/*.ttf "$1/usr/share/fonts/mukta"
-cp ./MuktaVaani-Gujarati/*.ttf "$1/usr/share/fonts/mukta"
+install -Dm644 ./Mukta-Devanagari/*.ttf -t"$1/usr/share/fonts/mukta/"
+install -Dm644 ./MuktaMahee-Gurmukhi/*.ttf -t "$1/usr/share/fonts/mukta/"
+install -Dm644 ./MuktaMalar-Tamil/*.ttf -t "$1/usr/share/fonts/mukta/"
+install -Dm644 ./MuktaVaani-Gujarati/*.ttf -t "$1/usr/share/fonts/mukta/"

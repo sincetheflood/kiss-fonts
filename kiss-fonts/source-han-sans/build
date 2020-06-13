@@ -1,4 +1,8 @@
 #!/bin/sh -e
 
-mkdir -p "$1/usr/share/fonts/OTF"
-cp ./SourceHanSans*/*.otf "$1/usr/share/fonts/OTF"
+ls
+install -Dm644 ./SourceHanSansCN/*.otf -t "$1/usr/share/fonts/OTF/"
+install -Dm644 ./SourceHanSansHK/*.otf -t "$1/usr/share/fonts/OTF/"
+install -Dm644 ./SourceHanSansJP/*.otf -t "$1/usr/share/fonts/OTF/"
+install -Dm644 ./SourceHanSansKR/*.otf -t "$1/usr/share/fonts/OTF/"
+install -Dm644 ./SourceHanSansTW/*.otf -t "$1/usr/share/fonts/OTF/"
