@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+install -Dm644 ./hinted/Noto*/*-Bold.ttf -t "$1/usr/share/fonts/noto/"
+install -Dm644 ./hinted/Noto*/*-Italic.ttf -t "$1/usr/share/fonts/noto/"
+install -Dm644 ./hinted/Noto*/*-Regular.ttf -t "$1/usr/share/fonts/noto/"
+
+install -Dm644 ./unhinted/Noto*/*-Bold.ttf -t "$1/usr/share/fonts/noto/"
+install -Dm644 ./unhinted/Noto*/*-Italic.ttf -t "$1/usr/share/fonts/noto/"
+install -Dm644 ./unhinted/Noto*/*-Regular.ttf -t "$1/usr/share/fonts/noto/"
