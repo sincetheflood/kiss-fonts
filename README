@@ -1,0 +1,41 @@
+|/
+|\ISS Repo                                                      https://k1ss.org
+________________________________________________________________________________
+
+
+KISS Fonts Repository
+________________________________________________________________________________
+
+A KISS Linux repository for font packages.
+
+Various fonts packaged for KISS Linux. See the Arch Wiki[1] for descriptions of
+most of the fonts in this repository, or take a look at the first commit message
+of a font for a brief description.
+
+This repository accepts PRs. When creating one you should follow the community
+repository's guidelines, which may be found here[2]. You are expected to keep
+any fonts you submit to the repository up-to-date, though given their slow
+realese nature it probably won't be much of an issue.
+
+
+Mirrors
+________________________________________________________________________________
+
+This git repository is mirrored to the following locations:
+
+ - https://git.himmalerin.net/kiss-fonts
+ - https://github.com/Himmalerin/kiss-fonts
+ - https://git.sr.ht/~himmalerin/kiss-fonts
+
+
+License
+________________________________________________________________________________
+
+All files in this repository are available under the BSD Zero Clause license.
+
+
+References
+________________________________________________________________________________
+
+[1]: https://wiki.archlinux.org/index.php/Fonts
+[2]: http://git.k1ss.org/community/file/README.html#l36
