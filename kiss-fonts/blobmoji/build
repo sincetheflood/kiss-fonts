@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+mkdir -p "$1/usr/share/fonts"
+mkdir -p "$1/usr/share/fontconfig/conf.avail"
+
+install -Dm644 ./*.ttf -t "$1/usr/share/fonts/TTF/"
+install -Dm744 75-blobmoji.conf "$1/usr/share/fontconfig/conf.avail"
