@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+find ttf -type f -name "*.ttf" -exec \
+    install -Dm644 -t "$1/usr/share/fonts/TTF" {} \;
