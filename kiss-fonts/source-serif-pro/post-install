@@ -1,0 +1,5 @@
+NOTE: Per upstream's decision to rename the font[1], this
+      package is no longer receiving updates. Please install
+      the 'source-serif' package instead.
+
+[1]: https://github.com/adobe-fonts/source-serif/issues/77 
